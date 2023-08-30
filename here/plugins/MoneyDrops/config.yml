@@ -1,0 +1,17 @@
+# MoneyDrops
+# Version: 1.13
+# Author(s): Wafflez
+# Credits: MilkBowl - VaultAPI
+# Any unauthorised re-distribution of this plugin's source code is not permitted.
+
+mobCash:
+  cashPickupMessage: '&6You killed a&l [mobName] &r&6and earned &l$[reward]'
+  gamemodes:
+    creative: false
+    survival: true
+    spectator: false
+    adventure: true
+  worlds:
+    world: true
+    world_nether: true
+    world_the_end: true

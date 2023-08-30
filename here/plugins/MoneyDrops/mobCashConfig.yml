@@ -1,0 +1,57 @@
+# The config file for the mob cash drops.
+#
+# Example:
+# mobs:
+#  wither_skeleton:
+#  displayname: wither skeleton
+#  reward:1.50
+
+mobs:
+  spider:
+    displayname: spider
+    reward: 1
+    chance: 100
+  cave_spider:
+    displayname: cave spider
+    reward: 1
+    chance: 100
+  zombie:
+    displayname: zombie
+    reward: 1
+    chance: 100
+  skeleton:
+    displayname: skeleton
+    reward: 1
+    chance: 100
+  blaze:
+    displayname: blaze
+    reward: 1
+    chance: 100
+  creeper:
+    displayname: creeper
+    reward: 1
+    chance: 100
+  ghast:
+    displayname: ghast
+    reward: 1
+    chance: 100
+  enderman:
+    displayname: enderman
+    reward: 1
+    chance: 100
+  drowned:
+    displayname: drowned
+    reward: 1
+    chance: 100
+  husk:
+    displayname: husk
+    reward: 1
+    chance: 100
+  slime:
+    displayname: slime
+    reward: 1
+    chance: 100
+  wither_skeleton:
+    displayname: wither skeleton
+    reward: 1
+    chance: 100

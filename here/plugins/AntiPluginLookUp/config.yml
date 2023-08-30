@@ -1,0 +1,226 @@
+#######################################################
+#                  AntiPluginLookUp                   #
+#                   Version 1.2.3                     #
+#                    by Entity303                     #
+#######################################################
+#######################################################
+# Verwendung:                                         #
+# %player% - Wird mit dem Spielernamen ersetzt        #
+# %break% - Wird mit einem Zeilenumbruch ersetzt      #
+# &a-f/0-9 - Wird mit den Farbcodes ersetzt           #
+#                                                     #
+# Usage:                                              #
+# %player% - Gets replaced with the player's name     #
+# %break% - Gets replaced with a new line             #
+# &a-f/0-9 - Gets replaced with the color codes       #
+#######################################################
+
+#Here you can change the prefix. You can see the prefix in front of the messages. An example: "AntiPluginLookUp | <message>"
+#Hier kannst du den Prefix des Plugins ändern. Dieser wird vor jeder Nachricht gesendet. z.B. "AntiPluginLookUp | <Nachricht>"
+Prefix: '&8[&3AntiPluginLookUp&8]&7 '
+
+#Here you can determine if AntiPluginLookUp should automatically update
+#Hier kannst du einstellen, ob AntiPluginLookUp automatisch updaten soll
+autoUpdate: true
+
+# Here you can choose between the languages German ('de'), English ('en') and Persian ('fa')
+# Hier kannst du die Sprache auf Englisch ('en'), auf Deutsch ('de') oder auf Persisch ('fa') stellen
+Language: 'en'
+
+# Block everything that has to do with / + [TAB]
+# Blockiert alles, das mit / + [TAB] zu tun hat
+BlockiereTabComplete: true
+
+# The message which gets send to the player that doesn't have permission to /aplu or /antipluginlookup. Enter 'null' to display the standard message
+# Wird gesendet, wenn der Spieler keine Rechte auf /aplu oder /antipluginlookup hat. Gib 'null' ein fuer die Standart Nachricht
+KeineRechte: 'null'
+
+# Here you can set if the tab-whitelist should be active
+# Hier kannst du einstellen, ob die Tab-Whitelist eingeschaltet sein soll
+TabWhitelistActive: false
+
+#Here you can block all commands of a plugin (Overridden by Whitelist)
+#Hier kannst du alle Befehle eines Plugins blockieren (Überschrieben durch die Whitelist)
+BlacklistPlugins:
+  antipluginlookup:
+    Worlds: "global"
+    Message: 'Unknown command. Type "/help" for help.'
+    Permission: "blacklist.antipluginlookup"
+
+# Here you can set which commands/arguments should be tabable (only works if the tab-whitelist is active)
+# Hier kannst du einstellen welche Commands/Argumente tabbar sind (funktioniert nur, wenn die Tab-Whitelist eingeschaltet ist)
+#example:
+#Here you can set the command that should be tabbable
+#Hier kannst du den tabbaren Command setzen
+#help:
+#  Here you can set the permission that is needed to tabcomplete that command
+#  Hier kannst du die Permission, die benötigt wird, um den Command zu tabben, einstellen
+#  Permission: "command.example"
+#  Here you can set if a permission is needed to tabcomplete this command
+#  Hier kannst du einstellen, ob eine Permission benötigt werden soll, um den Command zu tabben
+#  PermissionNeeded: false
+#  Here you can set on which worlds the command should be tabbable (global = everywhere)
+#  Hier kannst du einstellen auf welchen Welten der Command tabbar sein soll (global = überall)
+#  Worlds: "Lobby,CityBuild"
+WhitelistedCommands:
+  example:
+    Permission: "command.example"
+    PermissionNeeded: false
+    Worlds: "Lobby,CityBuild"
+    HasArguments: true
+    Arguments:
+      some:
+        Permission: "command.example"
+        PermissionNeeded: false
+        Worlds: "Lobby,CityBuild"
+        Count: 1
+      cool:
+        Permission: "command.example"
+        PermissionNeeded: false
+        Worlds: "Lobby,CityBuild"
+        Count: 2
+      arguments:
+        Permission: "command.example"
+        PermissionNeeded: true
+        Worlds: "Lobby,CityBuild"
+        Count: 3
+  example2:
+    Permission: "command.example"
+    PermissionNeeded: true
+    Worlds: "global"
+    HasArguments: true
+    Arguments:
+      some:
+        Permission: "command.example2"
+        PermissionNeeded: true
+        Worlds: "global"
+        Count: 1
+      cool:
+        Permission: "command.example2"
+        PermissionNeeded: true
+        Worlds: "global"
+        Count: 2
+      arguments:
+        Permission: "command.example2"
+        PermissionNeeded: true
+        Worlds: "global"
+        Count: 1
+
+
+WhitelistedCommandsGroups:
+  exampleGroup:
+    Permission: "group.example"
+    PermissionNeeded: false
+    Worlds: "global"
+    Commands: "help,sethome,delhome,home,warp"
+    HasArguments: true
+    Arguments:
+      some:
+        Permission: "group.example"
+        PermissionNeeded: false
+        Worlds: "global"
+        Count: 1
+      cool:
+        Permission: "group.example"
+        PermissionNeeded: false
+        Worlds: "global"
+        Count: 2
+      arguments:
+        Permission: "group.example"
+        PermissionNeeded: false
+        Worlds: "global"
+        Count: 3
+
+# Here you can set which commands should be blocked
+# Hier kannst du einstellen welche Commands blockiert werden sollen
+BlockedCommands:
+#Example:
+#  Here you can set the command
+#  Hier kannst du den Command angeben
+#  pl:
+#    Here you can set the permission to use the command
+#    Hier kannst du die Permission für den Command angeben
+#    Permission: "antipluginlookup.allow.commands"
+#    Here you can set if a message should be send
+#    Hier kannst du angeben ob eine Nachricht gesendet werden soll
+#    SendMessage: true
+#    Here you can set the message which is send if the player doesnt have the permission
+#    Hier kannst du die Nachricht für den Command angeben, falls der Spieler keine Rechte hat
+#    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+#    Here you can set if advertisment for my plugin should be send
+#    Hier kannst du angeben ob Werbung für mein Plugin gesendet werden soll <3
+#    SendAdvertisement: true
+#    Here you can set if the command should be blocked if it has the bukkit: prefix
+#    Hier kannst du angeben ob der Command auch bei einem bukkit: Prefix blockiert werden soll
+#    Bukkit: true
+#    Here you can set if the command should be blocked if it has the minecraft: prefix
+#    Hier kannst du angeben ob der Command auch bei einem minecraft: Prefix blockiert werden soll
+#    Minecraft: false
+#    Here you can set in which worlds the command should be blocked (global = everywhere)
+#    Hier kannst du angeben in welchen Welten der Command blockiert werden soll (global = überall)
+#    Worlds: "global"
+  pl:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: true
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+  plugins:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: true
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+  ver:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: false
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+  version:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: false
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+  icanhasbukkit:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: false
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+  about:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: true
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+
+BlockedCommandsGroups:
+  help:
+    Permission: "antipluginlookup.allow.commands"
+    SendMessage: true
+    Message: "Plugins (5): &aNothing&r, &cto&r, &asee&r, &chere&r, &a;P"
+    SendAdvertisement: false
+    Bukkit: true
+    Minecraft: false
+    Worlds: "global"
+    Commands: "?,help"
+
+bstats: true
+
+# Do not change! It would reset the config!
+# Nicht ändern! Das resettet die Config!
+ConfigVersion: "1.6"

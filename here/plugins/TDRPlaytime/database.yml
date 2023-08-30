@@ -1,0 +1,9 @@
+database: yaml
+mysql:
+  hostname: localhost
+  port: 3306
+  user: root
+  password: password
+  database: playtime
+  ssl: 'false'
+  table_prefix: ''

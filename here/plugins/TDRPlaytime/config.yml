@@ -1,0 +1,11 @@
+language: en_GB
+settings:
+  update_check: true
+  cacheTime: 5
+  afk:
+    countAfkTime: true
+    events:
+      chatResetAfkTime: true
+      inventoryClickResetAfkTime: true
+      interactResetAfkTime: true
+  update_checktime: 0.5

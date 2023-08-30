@@ -1,0 +1,1185 @@
+[08:57:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:57:32] [ServerMain/INFO]: Loaded 7 recipes
+[08:57:33] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[08:57:33] [Server thread/INFO]: Loading properties
+[08:57:33] [Server thread/INFO]: This server is running Paper version git-Paper-163 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 6f30f08)
+[08:57:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:57:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:57:33] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:57:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[08:57:34] [Server thread/INFO]: Default game type: SURVIVAL
+[08:57:34] [Server thread/INFO]: Generating keypair
+[08:57:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:57:34] [Server thread/INFO]: Using epoll channel type
+[08:57:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:57:34] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[08:57:36] [Server thread/INFO]: [SpigotLibraryLoader] [PluginPortal] Loading 2 libraries... please wait
+[08:57:36] [Server thread/INFO]: [SpigotLibraryLoader] [PluginPortal] Loaded library /workspaces/my-minecraft-server/.github/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[08:57:36] [Server thread/INFO]: [SpigotLibraryLoader] [PluginPortal] Loaded library /workspaces/my-minecraft-server/.github/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[08:57:36] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:57:43] [Server thread/WARN]: Legacy plugin AntiPluginLookUp v1.2.3 does not specify an api-version.
+[08:57:43] [Server thread/WARN]: Legacy plugin MoneyDrops v1.13 does not specify an api-version.
+[08:57:43] [Server thread/WARN]: Legacy plugin TDRPlaytime v1.12.0 does not specify an api-version.
+[08:57:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[08:57:43] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[08:57:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:57:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:57:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[08:57:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[08:57:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[08:57:45] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[08:57:45] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.1
+[08:57:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[08:57:45] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[08:57:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4e2c0252]
+[08:57:46] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[08:57:47] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[08:57:47] [Server thread/INFO]: [floodgate] Took 513ms to boot Floodgate
+[08:57:47] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3188)
+[08:57:47] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.2
+[08:57:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
+[08:57:47] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.3.1
+[08:57:47] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[08:57:47] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.1-SNAPSHOT
+[08:57:47] [Server thread/INFO]: [PluginConstructorAPI] Loading server plugin PluginConstructorAPI v1.0.52
+[08:57:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[08:57:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[08:57:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[08:57:47] [Server thread/INFO]: [PluginPortal] Loading server plugin PluginPortal v1.5.0
+[08:57:47] [Server thread/INFO]: [FreeRPG] Loading server plugin FreeRPG v1.4.51
+[08:57:47] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.3.5-64893d49
+[08:57:47] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[08:57:47] [Server thread/INFO]: [NPCAuctions] Loading server plugin NPCAuctions v1.0.63
+[08:57:47] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
+[08:57:47] [Server thread/INFO]: [CustomCrates] Loading server plugin CustomCrates v5.0.2
+[08:57:47] [Server thread/INFO]: [UltraCustomizer] Loading server plugin UltraCustomizer v1.1.5
+[08:57:47] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[08:57:47] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.3
+[08:57:47] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v3.12.2
+[08:57:47] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[08:57:47] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.8.0
+[08:57:47] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[08:57:47] [Server thread/INFO]: [BetterTeams] File is up to date
+[08:57:47] [Server thread/INFO]: [AntiPluginLookUp] Loading server plugin AntiPluginLookUp v1.2.3
+[08:57:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[08:57:47] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[08:57:47] [Server thread/INFO]: [Maintenance] Loading server plugin Maintenance v4.1.0
+[08:57:47] [Server thread/INFO]: [Images] Loading server plugin Images v2.3.0
+[08:57:47] [Server thread/INFO]: [MoneyDrops] Loading server plugin MoneyDrops v1.13
+[08:57:47] [Server thread/INFO]: [TDRPlaytime] Loading server plugin TDRPlaytime v1.12.0
+[08:57:47] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.17.1
+[08:57:48] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (357 ms).
+[08:57:48] [Server thread/INFO]: [Shopkeepers] Loading config.
+[08:57:48] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[08:57:48] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[08:57:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:57:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[08:57:49] [Server thread/INFO]:         __    
+[08:57:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[08:57:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[08:57:49] [Server thread/INFO]: 
+[08:57:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:57:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:57:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:57:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:57:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4175ms)
+[08:57:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[08:57:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[08:57:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:57:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[08:57:52] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[08:57:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[08:57:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[08:57:52] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[08:57:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[08:57:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:57:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:57:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:57:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:57:55] [Server thread/INFO]: Preparing level "world"
+[08:57:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:57:57] [Server thread/INFO]: Time elapsed: 442 ms
+[08:57:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:57:57] [Server thread/INFO]: Time elapsed: 133 ms
+[08:57:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:57:57] [Server thread/INFO]: Time elapsed: 113 ms
+[08:57:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[08:57:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[08:57:57] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.1
+[08:57:57] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[08:57:57] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[08:57:58] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[08:57:58] [Server thread/INFO]: [DeluxeHub] 
+[08:57:58] [Server thread/INFO]: [DeluxeHub] Version: 3.5.1
+[08:57:58] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[08:57:58] [Server thread/INFO]: [DeluxeHub] 
+[08:57:58] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[08:57:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[08:57:58] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(v1_20_R1) is not supported by this NBT-API Version(2.9.2) located at fun.lewisdev.deluxehub.libs.nbtapi.utils.MinecraftVersion. The NBT-API will try to work as good as it can! Some functions may not work!
+[08:57:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[08:57:58] [Server thread/WARN]: fun.lewisdev.deluxehub.libs.nbtapi.NbtApiException: [?]Error while calling the method 'putString(java.lang.String,java.lang.String)', loaded: true, Enum: COMPOUND_SET_STRING Passed Class: class java.lang.Boolean
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.utils.nmsmappings.ReflectionMethod.run(ReflectionMethod.java:180)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.NBTReflectionUtil.setData(NBTReflectionUtil.java:611)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.NBTCompound.setString(NBTCompound.java:101)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[08:57:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[08:57:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[08:57:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[08:57:58] [Server thread/WARN]: Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
+[08:57:58] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[08:57:58] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[08:57:58] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[08:57:58] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.utils.nmsmappings.ReflectionMethod.run(ReflectionMethod.java:178)
+[08:57:58] [Server thread/WARN]: 	... 19 more
+[08:57:58] [Server thread/ERROR]: [DeluxeHub] ============= DELUXEHUB MODULE LOAD ERROR =============
+[08:57:58] [Server thread/ERROR]: [DeluxeHub] There was an error loading the HOTBAR_ITEMS module
+[08:57:58] [Server thread/ERROR]: [DeluxeHub] The plugin will now disable..
+[08:57:58] [Server thread/ERROR]: [DeluxeHub] ============= DELUXEHUB MODULE LOAD ERROR =============
+[08:57:58] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.1
+[08:57:58] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.util.Set.forEach(java.util.function.Consumer)" because "this.holograms" is null
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hologram.HologramManager.saveHolograms(HologramManager.java:61)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hologram.HologramManager.onDisable(HologramManager.java:36)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.ModuleManager.unloadModules(ModuleManager.java:92)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:113)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[08:57:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224)
+[08:57:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:80)
+[08:57:58] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[08:57:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[08:57:58] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[08:57:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[08:57:58] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[08:57:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[08:57:58] [Server thread/ERROR]: [DeluxeHub] There was an error unloading the HOLOGRAMS module.
+[08:57:58] [Server thread/INFO]: [DeluxeHub] Loaded 0 plugin modules.
+[08:57:58] [Server thread/ERROR]: Error occurred while enabling DeluxeHub v3.5.1 (Is it up to date?)
+java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:838) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:337) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:98) ~[DeluxeHub-3.5.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[08:57:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[08:57:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:57:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:57:59] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[08:58:00] [Server thread/INFO]: [Essentials] Using locale en
+[08:58:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:58:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:58:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[08:58:00] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[08:58:00] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[08:58:00] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3188)
+[08:58:00] [Server thread/INFO]: [Citizens] Loading external libraries
+[08:58:01] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[08:58:02] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.2
+[08:58:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[08:58:02] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.3.1
+[08:58:02] [Server thread/ERROR]: Error occurred while enabling DecentHolograms v2.3.1 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at eu.decentsoftware.holograms.api.DecentHolograms.enable(DecentHolograms.java:57) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.api.DecentHologramsAPI.onEnable(DecentHologramsAPI.java:20) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.plugin.DecentHologramsPlugin.onEnable(DecentHologramsPlugin.java:20) ~[DecentHolograms-2.3.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "eu.decentsoftware.holograms.api.utils.reflect.Version.getMinor()" because "eu.decentsoftware.holograms.api.utils.reflect.Version.CURRENT" is null
+	at eu.decentsoftware.holograms.api.utils.reflect.Version.afterOrEqual(Version.java:63) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.api.nms.NMS.<clinit>(NMS.java:40) ~[DecentHolograms-2.3.1.jar:?]
+	... 15 more
+[08:58:02] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.3.1
+[08:58:02] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling DecentHolograms v2.3.1 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "eu.decentsoftware.holograms.api.nms.PacketListener.destroy()" because "this.packetListener" is null
+	at eu.decentsoftware.holograms.api.DecentHolograms.disable(DecentHolograms.java:92) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.api.DecentHologramsAPI.onDisable(DecentHologramsAPI.java:28) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.plugin.DecentHologramsPlugin.onDisable(DecentHologramsPlugin.java:31) ~[DecentHolograms-2.3.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:193) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[08:58:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[08:58:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[08:58:02] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.1-SNAPSHOT
+[08:58:02] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[08:58:03] [pool-31-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (767828469573c2f0fa3ed5a44feb0b2f15f2c02d)
+[08:58:03] [Server thread/INFO]: [RedProtect] Server version: 1.20.1-R0.1-SNAPSHOT
+[08:58:03] [Server thread/INFO]: [RedProtect] All configurations loaded!
+[08:58:03] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
+[08:58:03] [Server thread/INFO]: [RedProtect] Registering commands...
+[08:58:03] [Server thread/INFO]: [RedProtect] Registering listeners...
+[08:58:03] [Server thread/INFO]: [RedProtect] Vault Economy found. Hooked.
+[08:58:03] [Server thread/INFO]: [RedProtect] Vault Permissions found. Hooked.
+[08:58:03] [Server thread/INFO]: [RedProtect] Essentials found. Hooked.
+[08:58:03] [Server thread/INFO]: [RedProtect] WorldEdit found. Hooked.
+[08:58:03] [Server thread/INFO]: [RedProtect] - Loading world's regions...
+[08:58:03] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
+[08:58:03] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
+[08:58:03] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[08:58:03] [Server thread/INFO]: [RedProtect] There are 0 regions on (file) database!
+[08:58:03] [Server thread/INFO]: [RedProtect] Helper version: Latest
+[08:58:03] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
+[08:58:03] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
+[08:58:03] [Server thread/INFO]: [RedProtect] Loading API...
+[08:58:03] [Server thread/INFO]: [RedProtect] API Loaded!
+[08:58:03] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
+[08:58:03] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
+[08:58:03] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
+[08:58:04] [Server thread/INFO]: » RedProtect v8.1.1-SNAPSHOT enabled
+[08:58:04] [Server thread/INFO]: 
+[08:58:04] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.52
+[08:58:04] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[08:58:04] [Server thread/INFO]: [PluginPortal] Enabling PluginPortal v1.5.0
+[08:58:05] [Server thread/INFO]: [FreeRPG] Enabling FreeRPG v1.4.51
+[08:58:05] [Server thread/WARN]: [FreeRPG] Could not save languages.yml to plugins/FreeRPG/languages.yml because languages.yml already exists.
+[08:58:05] [Server thread/WARN]: [FreeRPG] Could not save advancedConfig.yml to plugins/FreeRPG/advancedConfig.yml because advancedConfig.yml already exists.
+[08:58:06] [Server thread/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Could not determine minecraft verison, Assuming 1.16...
+[08:58:06] [Server thread/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[08:58:06] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.3.5-64893d49
+[08:58:07] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.1)...
+[08:58:07] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality
+[08:58:11] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[08:58:11] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/my-minecraft-server/.github/plugins/MythicMobs/SavedData
+[08:58:11] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/my-minecraft-server/.github/plugins/MythicMobs/SavedData/worlds
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Items...
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[08:58:14] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[08:58:14] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[08:58:14] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[08:58:14] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.3.5 ( build 64893d49 ) has been successfully loaded!
+[08:58:14] [Server thread/INFO]: [NPCAuctions] Enabling NPCAuctions v1.0.63
+[08:58:14] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[08:58:14] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[08:58:14] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[08:58:14] [Server thread/INFO]: | Command file(s) found : 1
+[08:58:14] [Server thread/INFO]: | Config : Ready.
+[08:58:14] [Server thread/INFO]: | ProtocolLib not found.
+[08:58:14] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[08:58:14] [Server thread/INFO]: | Custom commands loaded : 44
+[08:58:14] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[08:58:14] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[08:58:14] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[08:58:14] [Server thread/INFO]: [CustomCrates] Enabling CustomCrates v5.0.2
+[08:58:14] [Server thread/INFO]: [CustomCrates] Loading Language: language_en.yml
+[08:58:14] [Server thread/INFO]: [CustomCrates] [EnchantmentLib] Version Detected: UNKNOWN
+[08:58:14] [Server thread/INFO]: [CustomCrates] [EnchantmentLib] Using latest enchantment api
+[08:58:15] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v1.1.5
+[08:58:15] [Server thread/INFO]: [UltraCustomizer] Loading Plugin...
+[08:58:15] [Server thread/INFO]: [UltraCustomizer] Registered 41 Elements
+[08:58:15] [Server thread/INFO]: [UltraCustomizer] Successfully loaded in 208 ms
+[08:58:15] [Server thread/INFO]: Cracked by d3v1l | https://blackspigot.com
+[08:58:15] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[08:58:15] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[08:58:15] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[08:58:15] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[08:58:15] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[08:58:15] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[08:58:15] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.3
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.3-RELEASE (commit ef23128)
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_20 (expected version: 1.20.1)
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Entity registry is not vanilla, skipping unfreeze and refreeze
+[08:58:16] [Server thread/INFO]: [UltraCosmetics] Loaded NMS support
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] 
+[08:58:20] [Server thread/WARN]: [UltraCosmetics] Morphs require Lib's Disguises, but it is not installed. Morphs will be disabled.
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] 
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] 
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] 
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 5034ms!
+[08:58:20] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[08:58:20] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
+[08:58:21] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[08:58:21] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[08:58:21] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[08:58:21] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[08:58:21] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.8.0
+[08:58:21] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[08:58:21] [Server thread/INFO]: [BetterTeams] File is up to date
+[08:58:21] [Server thread/INFO]: Display team name config value: prefix
+[08:58:21] [Server thread/INFO]: Loading below name. Type: PREFIX
+[08:58:21] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@4e786cc0
+[08:58:21] [Server thread/INFO]: [AntiPluginLookUp] Enabling AntiPluginLookUp v1.2.3*
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] AntiPluginLookUp is running on 1.20!
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup:antipluginlookup
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup:antipluginlookup
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: pl
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: plugins
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: ver
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: version
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: icanhasbukkit
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: about
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: ?
+[08:58:21] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: help
+[08:58:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[08:58:21] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[08:58:21] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[08:58:21] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[08:58:21] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[08:58:21] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[08:58:21] [Server thread/INFO]: [ClearLag] Loading modules...
+[08:58:21] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[08:58:21] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[08:58:21] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[08:58:21] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[08:58:21] [Thread-16/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[08:58:21] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.1.0
+[08:58:21] [Thread-16/INFO]: [ClearLag] No updates found!
+[08:58:22] [Server thread/INFO]: [Images] Enabling Images v2.3.0
+[08:58:22] [Server thread/INFO]: [MoneyDrops] Enabling MoneyDrops v1.13*
+[08:58:22] [Server thread/INFO]: [MoneyDrops] Could not find version number for MoneyDrops from SpigotMC.org!
+[08:58:22] [Server thread/INFO]: [TDRPlaytime] Enabling TDRPlaytime v1.12.0*
+[08:58:22] [Server thread/INFO]: [TDRPlaytime] Loading milestones
+[08:58:22] [Server thread/INFO]: [TDRPlaytime] Loading repeating milestones
+[08:58:22] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.17.1
+[08:58:22] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[08:58:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:58:23] [Server thread/INFO]: [Geyser-Spigot] 
+[08:58:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-661a9b4)
+[08:58:23] [Server thread/INFO]: [Geyser-Spigot] 
+[08:58:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:58:27] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[08:58:27] [Server thread/INFO]: [Geyser-Spigot] Done (4.145s)! Run /geyser help for help!
+[08:58:27] [Server thread/INFO]: Running delayed init tasks
+[08:58:27] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[08:58:27] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[08:58:27] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
+[08:58:27] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[08:58:27] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[08:58:27] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[08:58:27] [Craft Scheduler Thread - 7 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
+[08:58:27] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[08:58:27] [Server thread/INFO]: Done (54.328s)! For help, type "help"
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[08:58:27] [Server thread/INFO]: Timings Reset
+[08:58:27] [Craft Scheduler Thread - 10 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:58:29] [Craft Scheduler Thread - 11 - Images/INFO]: [Images] Loaded 0 images...
+[08:58:30] [Craft Scheduler Thread - 10 - AntiPluginLookUp/INFO]: [Info] [AntiPluginLookUp] You are using the latest version of AntiPluginLookUp <3
+[08:58:34] [User Authenticator #0/INFO]: UUID of player algladsuper is 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+[08:58:35] [Server thread/INFO]: algladsuper joined the game
+[08:58:35] [Server thread/INFO]: algladsuper[/[0:0:0:0:0:0:0:1%0]:44576] logged in with entity id 143 at ([world]998.018753211373, 80.2588763246972, -1527.9677444592019)
+[08:58:46] [Server thread/INFO]: algladsuper issued server command: /ram
+[08:59:31] [Server thread/INFO]: algladsuper issued server command: /maintenance
+[08:59:36] [Server thread/INFO]: algladsuper issued server command: /mt on
+[08:59:36] [Server thread/INFO]: [Maintenance] Maintenance mode is now activated.
+[09:00:01] [Server thread/INFO]: algladsuper issued server command: /mt motd &6We Are Making Spawn
+[09:00:08] [Server thread/INFO]: algladsuper issued server command: /mt motd timer
+[09:00:23] [Server thread/INFO]: algladsuper issued server command: /mt motds
+[09:00:26] [Server thread/INFO]: algladsuper issued server command: /mt on
+[09:00:35] [Server thread/INFO]: algladsuper issued server command: /time set day
+[09:00:43] [Server thread/INFO]: algladsuper issued server command: /gamemode creative
+[09:00:43] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing 'gamemode creative' in fun.lewisdev.deluxehub.libs.commandframework.bukkit.util.DynamicPluginCommand(gamemode)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-163]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:838) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:337) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at fun.lewisdev.deluxehub.libs.commandframework.minecraft.util.commands.CommandsManager.scopeMatches(CommandsManager.java:657) ~[DeluxeHub-3.5.1.jar:?]
+	at fun.lewisdev.deluxehub.libs.commandframework.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:525) ~[DeluxeHub-3.5.1.jar:?]
+	at fun.lewisdev.deluxehub.libs.commandframework.minecraft.util.commands.CommandsManager.executeMethod(CommandsManager.java:475) ~[DeluxeHub-3.5.1.jar:?]
+	at fun.lewisdev.deluxehub.libs.commandframework.minecraft.util.commands.CommandsManager.execute(CommandsManager.java:451) ~[DeluxeHub-3.5.1.jar:?]
+	at fun.lewisdev.deluxehub.command.CommandManager.execute(CommandManager.java:52) ~[DeluxeHub-3.5.1.jar:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onCommand(DeluxeHubPlugin.java:136) ~[DeluxeHub-3.5.1.jar:?]
+	at fun.lewisdev.deluxehub.libs.commandframework.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[DeluxeHub-3.5.1.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[09:01:10] [Server thread/INFO]: algladsuper lost connection: Disconnected
+[09:01:11] [Server thread/INFO]: algladsuper left the game
+[09:01:11] [Craft Scheduler Thread - 4 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:01:12] [User Authenticator #1/INFO]: UUID of player algladsuper is 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+[09:01:12] [Server thread/INFO]: algladsuper joined the game
+[09:01:12] [Server thread/INFO]: algladsuper[/[0:0:0:0:0:0:0:1%0]:59368] logged in with entity id 619 at ([world]1033.1667588375783, 88.40762608459386, -1345.5465011114072)
+[09:04:16] [Server thread/INFO]: algladsuper issued server command: /rtp
+[09:04:58] [Server thread/INFO]: algladsuper issued server command: /customizer
+[09:05:47] [Server thread/INFO]: algladsuper issued server command: //wand
+[09:06:10] [Server thread/INFO]: algladsuper issued server command: //set grass_block
+[09:06:23] [Server thread/WARN]: Exception loading entity: 
+net.minecraft.ResourceKeyInvalidException: Non [a-z0-9/._-] character in path of location: minecraft:Pig
+	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:234) ~[?:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[?:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[?:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[?:?]
+	at net.minecraft.world.entity.EntityType.by(EntityType.java:610) ~[?:?]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:586) ~[?:?]
+	at net.minecraft.world.entity.EntityType.loadStaticEntity(EntityType.java:672) ~[?:?]
+	at net.minecraft.world.entity.EntityType.loadEntityRecursive(EntityType.java:615) ~[?:?]
+	at net.minecraft.world.entity.EntityType$1.lambda$tryAdvance$1(EntityType.java:639) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602) ~[?:?]
+	at net.minecraft.world.entity.EntityType$1.tryAdvance(EntityType.java:638) ~[?:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:332) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
+	at java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.addWorldGenChunkEntities(ServerLevel.java:2572) ~[?:?]
+	at net.minecraft.server.level.ChunkMap.postLoadProtoChunk(ChunkMap.java:743) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.chunk.system.scheduling.ChunkFullTask.lambda$run$0(ChunkFullTask.java:58) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.world.level.chunk.LevelChunk.runPostLoad(LevelChunk.java:784) ~[?:?]
+	at io.papermc.paper.chunk.system.scheduling.ChunkFullTask.run(ChunkFullTask.java:63) ~[paper-1.20.1.jar:git-Paper-163]
+	at ca.spottedleaf.concurrentutil.executor.standard.PrioritisedThreadedTaskQueue$PrioritisedTask.executeInternal(PrioritisedThreadedTaskQueue.java:351) ~[paper-1.20.1.jar:git-Paper-163]
+	at ca.spottedleaf.concurrentutil.executor.standard.PrioritisedThreadedTaskQueue.executeTask(PrioritisedThreadedTaskQueue.java:118) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.chunk.system.scheduling.ChunkTaskScheduler.executeMainThreadTask(ChunkTaskScheduler.java:310) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:868) ~[?:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:429) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1327) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1425) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09:06:30] [Server thread/INFO]: algladsuper issued server command: //set grass_block
+[09:10:57] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/2457, uuid='40d4f796-ed41-485b-9993-a2af89c60869', l='ServerLevel[world]', x=1278.50, y=-4.00, z=-1678.50, cpos=[79, -105], tl=435, v=true] died: Skeletal Knight suffocated in a wall
+[09:13:27] [Craft Scheduler Thread - 5 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:13:27] [Craft Scheduler Thread - 5 - FreeRPG/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:18:32] [Server thread/INFO]: algladsuper issued server command: /time set day
+[09:20:05] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/3297, uuid='113617c0-80cd-4581-8ca8-ad033b291499', l='ServerLevel[world]', x=1252.50, y=-24.00, z=-1729.50, cpos=[78, -109], tl=431, v=true] died: Skeletal Knight suffocated in a wall
+[09:20:16] [Server thread/INFO]: algladsuper has made the advancement [Bring Home the Beacon]
+[09:23:46] [Server thread/INFO]: algladsuper issued server command: //wand
+[09:23:57] [Server thread/INFO]: algladsuper issued server command: //set air
+[09:25:26] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/3832, uuid='508a1668-7b21-453e-83e4-cbe25fc163a0', l='ServerLevel[world]', x=1306.50, y=-13.00, z=-1691.50, cpos=[81, -106], tl=578, v=true] died: Skeletal Knight suffocated in a wall
+[09:25:52] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/3876, uuid='456550ec-c51a-4216-a8da-162269e64b78', l='ServerLevel[world]', x=1314.50, y=-5.00, z=-1683.50, cpos=[82, -106], tl=575, v=true] died: Skeletal Knight suffocated in a wall
+[09:28:27] [Craft Scheduler Thread - 20 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:28:27] [Craft Scheduler Thread - 20 - FreeRPG/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:29:14] [Server thread/INFO]: algladsuper issued server command: /brush sphere 25%andesite,25%stone,25%cobblestone,25%mud
+[09:29:23] [Server thread/INFO]: algladsuper issued server command: /undo
+[09:29:36] [Server thread/INFO]: algladsuper issued server command: /mask grass_block,dirt
+[09:29:47] [Server thread/INFO]: algladsuper issued server command: /undo
+[09:29:49] [Server thread/INFO]: algladsuper issued server command: /undo
+[09:29:52] [Server thread/INFO]: algladsuper issued server command: /undo
+[09:29:57] [Server thread/INFO]: algladsuper issued server command: //wand
+[09:30:08] [Server thread/INFO]: algladsuper issued server command: //set grass_block
+[09:30:19] [Server thread/INFO]: algladsuper issued server command: //set grass_block
+[09:30:27] [Server thread/INFO]: algladsuper issued server command: /time set day
+[09:32:25] [Server thread/INFO]: algladsuper issued server command: /brush sphere 25%andesite,25%stone,25%cobblestone,25%gravel
+[09:33:04] [Server thread/INFO]: algladsuper has made the advancement [Stone Age]
+[09:33:27] [Server thread/INFO]: algladsuper has made the advancement [Monster Hunter]
+[09:37:27] [Server thread/INFO]: algladsuper issued server command: /setspawn
+[09:37:30] [Server thread/INFO]: algladsuper issued server command: /spawn
+[09:37:35] [Server thread/INFO]: algladsuper issued server command: /kill algladsuper
+[09:37:35] [Server thread/INFO]: algladsuper died
+[09:38:03] [Server thread/INFO]: algladsuper issued server command: /mt add .chiragpro21
+[09:38:10] [Server thread/INFO]: algladsuper issued server command: /mt add chiragpro21
+[09:39:15] [Server thread/INFO]: algladsuper issued server command: /mt add algladamalak
+[09:39:23] [Server thread/INFO]: algladsuper issued server command: /mt add .algladamalak
+[09:39:58] [Server thread/INFO]: algladsuper issued server command: /geyser list
+[09:39:58] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en
+[09:40:03] [Server thread/INFO]: algladsuper issued server command: /geyser reload
+[09:40:03] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en
+[09:40:03] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[09:40:03] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[09:40:03] [epollEventLoopGroup-8-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[09:40:03] [WebSocketConnectReadThread-130/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[09:41:54] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[09:41:54] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[09:41:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:41:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:41:54] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.17.1
+[09:41:54] [Server thread/INFO]: [TDRPlaytime] Disabling TDRPlaytime v1.12.0
+[09:41:54] [Server thread/INFO]: [MoneyDrops] Disabling MoneyDrops v1.13
+[09:41:54] [Server thread/INFO]: [Images] Disabling Images v2.3.0
+[09:41:54] [Server thread/INFO]: [Maintenance] Disabling Maintenance v4.1.0
+[09:41:54] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[09:41:54] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[09:41:54] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[09:41:54] [Server thread/INFO]: [AntiPluginLookUp] Disabling AntiPluginLookUp v1.2.3
+[09:41:54] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.8.0
+[09:41:54] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[09:41:54] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
+[09:41:55] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.3
+[09:41:55] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[09:41:55] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[09:41:55] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[09:41:55] [Server thread/INFO]: [UltraCustomizer] Disabling UltraCustomizer v1.1.5
+[09:41:55] [Server thread/INFO]: [CustomCrates] Disabling CustomCrates v5.0.2
+[09:41:55] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
+[09:41:55] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[09:41:55] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[09:41:55] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[09:41:55] [Server thread/INFO]: [NPCAuctions] Disabling NPCAuctions v1.0.63
+[09:41:55] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.3.5-64893d49
+[09:41:55] [Server thread/INFO]: [MythicMobs] Disabling Mythic Mobs...
+[09:41:55] [Server thread/INFO]: [MythicMobs] All active settings have been saved.
+[09:41:55] [Server thread/INFO]: [FreeRPG] Disabling FreeRPG v1.4.51
+[09:41:55] [Server thread/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:41:55] [Server thread/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:41:55] [Server thread/INFO]: [PluginPortal] Disabling PluginPortal v1.5.0
+[09:41:55] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[09:41:55] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[09:41:55] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[09:41:55] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.52
+[09:41:55] [Server thread/INFO]: [RedProtect] Disabling RedProtect v8.1.1-SNAPSHOT
+[09:41:55] [Server thread/INFO]: [RedProtect] Saving world's regions...
+[09:41:55] [Server thread/INFO]: [RedProtect] Saving world_the_end's regions...
+[09:41:55] [Server thread/INFO]: [RedProtect] Saving world_nether's regions...
+[09:41:55] [WebSocketConnectReadThread-774/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[09:41:55] [Server thread/INFO]: [RedProtect] Unregistering listeners...
+[09:41:55] [Server thread/INFO]: [RedProtect] RedProtect v8.1.1-SNAPSHOT turned off...
+[09:41:55] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[09:41:55] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[09:41:55] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.32-SNAPSHOT (build 3188)
+[09:41:55] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[09:41:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[09:41:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[09:41:55] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[09:41:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[09:41:55] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[09:41:55] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[09:41:55] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[09:41:55] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[09:41:55] [Server thread/INFO]: [LuckPerms] Closing storage...
+[09:41:55] [Server thread/INFO]: [LuckPerms] Goodbye!
+[09:41:55] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[09:41:55] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[09:41:55] [Server thread/INFO]: Loaded 7 recipes
+[09:41:56] [Server thread/INFO]: [SpigotLibraryLoader] [PluginPortal] Loading 2 libraries... please wait
+[09:41:56] [Server thread/INFO]: [SpigotLibraryLoader] [PluginPortal] Loaded library /workspaces/my-minecraft-server/.github/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[09:41:56] [Server thread/INFO]: [SpigotLibraryLoader] [PluginPortal] Loaded library /workspaces/my-minecraft-server/.github/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[09:41:56] [Server thread/WARN]: Legacy plugin AntiPluginLookUp v1.2.3 does not specify an api-version.
+[09:41:56] [Server thread/WARN]: Legacy plugin MoneyDrops v1.13 does not specify an api-version.
+[09:41:56] [Server thread/WARN]: Legacy plugin TDRPlaytime v1.12.0 does not specify an api-version.
+[09:41:57] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[09:41:57] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[09:41:57] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[09:41:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:41:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:41:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:41:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:41:58] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[09:41:58] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:41:58] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.1
+[09:41:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[09:41:58] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[09:41:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@76dbfbc7]
+[09:41:58] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[09:41:59] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[09:41:59] [Server thread/INFO]: [floodgate] Took 370ms to boot Floodgate
+[09:41:59] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3188)
+[09:41:59] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.2
+[09:41:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
+[09:41:59] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.3.1
+[09:41:59] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[09:41:59] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.1-SNAPSHOT
+[09:41:59] [Server thread/INFO]: [PluginConstructorAPI] Loading server plugin PluginConstructorAPI v1.0.52
+[09:41:59] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[09:41:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[09:41:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[09:41:59] [Server thread/INFO]: [PluginPortal] Loading server plugin PluginPortal v1.5.0
+[09:41:59] [Server thread/INFO]: [FreeRPG] Loading server plugin FreeRPG v1.4.51
+[09:41:59] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.3.5-64893d49
+[09:41:59] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[09:41:59] [Server thread/INFO]: [NPCAuctions] Loading server plugin NPCAuctions v1.0.63
+[09:41:59] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
+[09:41:59] [Server thread/INFO]: [CustomCrates] Loading server plugin CustomCrates v5.0.2
+[09:41:59] [Server thread/INFO]: [UltraCustomizer] Loading server plugin UltraCustomizer v1.1.5
+[09:41:59] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[09:41:59] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.3
+[09:41:59] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v3.12.2
+[09:41:59] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[09:41:59] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.8.0
+[09:41:59] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[09:41:59] [Server thread/INFO]: [BetterTeams] File is up to date
+[09:41:59] [Server thread/INFO]: [AntiPluginLookUp] Loading server plugin AntiPluginLookUp v1.2.3
+[09:41:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[09:41:59] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[09:41:59] [Server thread/INFO]: [Maintenance] Loading server plugin Maintenance v4.1.0
+[09:41:59] [Server thread/INFO]: [Images] Loading server plugin Images v2.3.0
+[09:41:59] [Server thread/INFO]: [MoneyDrops] Loading server plugin MoneyDrops v1.13
+[09:41:59] [Server thread/INFO]: [TDRPlaytime] Loading server plugin TDRPlaytime v1.12.0
+[09:41:59] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.17.1
+[09:41:59] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (239 ms).
+[09:41:59] [Server thread/INFO]: [Shopkeepers] Loading config.
+[09:41:59] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[09:41:59] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[09:41:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:41:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[09:42:00] [Server thread/INFO]:         __    
+[09:42:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[09:42:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:42:00] [Server thread/INFO]: 
+[09:42:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:42:01] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:42:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:42:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:42:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2493ms)
+[09:42:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:42:02] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:42:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:42:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:42:02] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[09:42:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[09:42:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:42:02] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[09:42:02] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[09:42:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[09:42:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[09:42:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[09:42:05] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.1
+[09:42:05] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[09:42:05] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[09:42:05] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[09:42:05] [Server thread/INFO]: [DeluxeHub] 
+[09:42:05] [Server thread/INFO]: [DeluxeHub] Version: 3.5.1
+[09:42:05] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[09:42:05] [Server thread/INFO]: [DeluxeHub] 
+[09:42:05] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[09:42:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[09:42:05] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(v1_20_R1) is not supported by this NBT-API Version(2.9.2) located at fun.lewisdev.deluxehub.libs.nbtapi.utils.MinecraftVersion. The NBT-API will try to work as good as it can! Some functions may not work!
+[09:42:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[09:42:05] [Server thread/WARN]: fun.lewisdev.deluxehub.libs.nbtapi.NbtApiException: [?]Error while calling the method 'putString(java.lang.String,java.lang.String)', loaded: true, Enum: COMPOUND_SET_STRING Passed Class: class java.lang.Boolean
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.utils.nmsmappings.ReflectionMethod.run(ReflectionMethod.java:180)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.NBTReflectionUtil.setData(NBTReflectionUtil.java:611)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.NBTCompound.setString(NBTCompound.java:101)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[09:42:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[09:42:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:993)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bf(DedicatedServer.java:501)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:448)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1394)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[09:42:05] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[09:42:05] [Server thread/WARN]: Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
+[09:42:05] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[09:42:05] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[09:42:05] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[09:42:05] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.libs.nbtapi.utils.nmsmappings.ReflectionMethod.run(ReflectionMethod.java:178)
+[09:42:05] [Server thread/WARN]: 	... 25 more
+[09:42:05] [Server thread/ERROR]: [DeluxeHub] ============= DELUXEHUB MODULE LOAD ERROR =============
+[09:42:05] [Server thread/ERROR]: [DeluxeHub] There was an error loading the HOTBAR_ITEMS module
+[09:42:05] [Server thread/ERROR]: [DeluxeHub] The plugin will now disable..
+[09:42:05] [Server thread/ERROR]: [DeluxeHub] ============= DELUXEHUB MODULE LOAD ERROR =============
+[09:42:05] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.1
+[09:42:05] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.util.List.clear()" because "this.vanished" is null
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.modules.player.PlayerVanish.onDisable(PlayerVanish.java:34)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.ModuleManager.unloadModules(ModuleManager.java:92)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:113)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[09:42:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224)
+[09:42:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:80)
+[09:42:05] [Server thread/WARN]: 	at DeluxeHub-3.5.1.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[09:42:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[09:42:05] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:993)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007)
+[09:42:05] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bf(DedicatedServer.java:501)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:448)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1394)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
+[09:42:05] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[09:42:05] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[09:42:05] [Server thread/ERROR]: [DeluxeHub] There was an error unloading the VANISH module.
+[09:42:05] [Server thread/INFO]: [DeluxeHub] Loaded 0 plugin modules.
+[09:42:05] [Server thread/ERROR]: Error occurred while enabling DeluxeHub v3.5.1 (Is it up to date?)
+java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:838) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:337) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:98) ~[DeluxeHub-3.5.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09:42:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[09:42:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:42:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:42:06] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[09:42:06] [Server thread/INFO]: [Essentials] Using locale en
+[09:42:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:42:06] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:42:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:42:06] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[09:42:06] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[09:42:06] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:71)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[09:42:06] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[09:42:06] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:993)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bf(DedicatedServer.java:501)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:448)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1394)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[09:42:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[09:42:06] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[09:42:06] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[09:42:06] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:71)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[09:42:06] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[09:42:06] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:993)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007)
+[09:42:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bf(DedicatedServer.java:501)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:448)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1394)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
+[09:42:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[09:42:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[09:42:06] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3188)
+[09:42:06] [Server thread/INFO]: [Citizens] Loading external libraries
+[09:42:07] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[09:42:07] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.2
+[09:42:07] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[09:42:07] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.3.1
+[09:42:07] [Server thread/ERROR]: Error occurred while enabling DecentHolograms v2.3.1 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at eu.decentsoftware.holograms.api.DecentHolograms.enable(DecentHolograms.java:57) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.api.DecentHologramsAPI.onEnable(DecentHologramsAPI.java:20) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.plugin.DecentHologramsPlugin.onEnable(DecentHologramsPlugin.java:20) ~[DecentHolograms-2.3.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "eu.decentsoftware.holograms.api.utils.reflect.Version.getMinor()" because "eu.decentsoftware.holograms.api.utils.reflect.Version.CURRENT" is null
+	at eu.decentsoftware.holograms.api.utils.reflect.Version.afterOrEqual(Version.java:63) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.api.nms.NMS.<clinit>(NMS.java:40) ~[DecentHolograms-2.3.1.jar:?]
+	... 21 more
+[09:42:07] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.3.1
+[09:42:07] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling DecentHolograms v2.3.1 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "eu.decentsoftware.holograms.api.nms.PacketListener.destroy()" because "this.packetListener" is null
+	at eu.decentsoftware.holograms.api.DecentHolograms.disable(DecentHolograms.java:92) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.api.DecentHologramsAPI.onDisable(DecentHologramsAPI.java:28) ~[DecentHolograms-2.3.1.jar:?]
+	at eu.decentsoftware.holograms.plugin.DecentHologramsPlugin.onDisable(DecentHologramsPlugin.java:31) ~[DecentHolograms-2.3.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:193) ~[paper-1.20.1.jar:git-Paper-163]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1117) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:1007) ~[paper-1.20.1.jar:git-Paper-163]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:970) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-163]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-163]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09:42:07] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[09:42:07] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[09:42:07] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.1-SNAPSHOT
+[09:42:07] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[09:42:07] [Server thread/INFO]: [RedProtect] Server version: 1.20.1-R0.1-SNAPSHOT
+[09:42:07] [pool-61-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (767828469573c2f0fa3ed5a44feb0b2f15f2c02d)
+[09:42:07] [Server thread/INFO]: [RedProtect] All configurations loaded!
+[09:42:07] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
+[09:42:07] [Server thread/INFO]: [RedProtect] Registering commands...
+[09:42:07] [Server thread/INFO]: [RedProtect] Registering listeners...
+[09:42:07] [Server thread/INFO]: [RedProtect] Vault Economy found. Hooked.
+[09:42:07] [Server thread/INFO]: [RedProtect] Vault Permissions found. Hooked.
+[09:42:07] [Server thread/INFO]: [RedProtect] Essentials found. Hooked.
+[09:42:07] [Server thread/INFO]: [RedProtect] WorldEdit found. Hooked.
+[09:42:07] [Server thread/INFO]: [RedProtect] - Loading world's regions...
+[09:42:08] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
+[09:42:08] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
+[09:42:08] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[09:42:08] [Server thread/INFO]: [RedProtect] There are 0 regions on (file) database!
+[09:42:08] [Server thread/INFO]: [RedProtect] Helper version: Latest
+[09:42:08] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
+[09:42:08] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
+[09:42:08] [Server thread/INFO]: [RedProtect] Loading API...
+[09:42:08] [Server thread/INFO]: [RedProtect] API Loaded!
+[09:42:08] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
+[09:42:08] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
+[09:42:08] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
+[09:42:08] [Server thread/INFO]: » RedProtect v8.1.1-SNAPSHOT enabled
+[09:42:08] [Server thread/INFO]: 
+[09:42:08] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.52
+[09:42:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[09:42:08] [Server thread/INFO]: [PluginPortal] Enabling PluginPortal v1.5.0
+[09:42:09] [Server thread/INFO]: [FreeRPG] Enabling FreeRPG v1.4.51
+[09:42:09] [Server thread/WARN]: [FreeRPG] Could not save languages.yml to plugins/FreeRPG/languages.yml because languages.yml already exists.
+[09:42:09] [Server thread/WARN]: [FreeRPG] Could not save advancedConfig.yml to plugins/FreeRPG/advancedConfig.yml because advancedConfig.yml already exists.
+[09:42:09] [Server thread/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Could not determine minecraft verison, Assuming 1.16...
+[09:42:09] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.3.5-64893d49
+[09:42:09] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.1)...
+[09:42:09] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality
+[09:42:11] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[09:42:11] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/my-minecraft-server/.github/plugins/MythicMobs/SavedData
+[09:42:11] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/my-minecraft-server/.github/plugins/MythicMobs/SavedData/worlds
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Items...
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[09:42:12] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[09:42:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[09:42:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[09:42:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[09:42:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[09:42:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[09:42:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[09:42:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[09:42:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[09:42:13] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[09:42:13] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[09:42:13] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.3.5 ( build 64893d49 ) has been successfully loaded!
+[09:42:13] [Server thread/INFO]: [NPCAuctions] Enabling NPCAuctions v1.0.63
+[09:42:13] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[09:42:13] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[09:42:13] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[09:42:13] [Server thread/INFO]: | Command file(s) found : 1
+[09:42:13] [Server thread/INFO]: | Config : Ready.
+[09:42:13] [Server thread/INFO]: | ProtocolLib not found.
+[09:42:13] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[09:42:13] [Server thread/INFO]: | Custom commands loaded : 44
+[09:42:13] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[09:42:13] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[09:42:13] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[09:42:13] [Server thread/INFO]: [CustomCrates] Enabling CustomCrates v5.0.2
+[09:42:13] [Server thread/INFO]: [CustomCrates] Loading Language: language_en.yml
+[09:42:13] [Server thread/INFO]: [CustomCrates] [EnchantmentLib] Glow enchantment already initialized. Using located enchantment.
+[09:42:13] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v1.1.5
+[09:42:13] [Server thread/INFO]: [UltraCustomizer] Loading Plugin...
+[09:42:13] [Server thread/INFO]: [UltraCustomizer] Registered 41 Elements
+[09:42:13] [Server thread/INFO]: [UltraCustomizer] Successfully loaded in 118 ms
+[09:42:13] [Server thread/INFO]: Cracked by d3v1l | https://blackspigot.com
+[09:42:13] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[09:42:13] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[09:42:13] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[09:42:13] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[09:42:13] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[09:42:13] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[09:42:13] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.3
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.3-RELEASE (commit ef23128)
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_20 (expected version: 1.20.1)
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Entity registry is not vanilla, skipping unfreeze and refreeze
+[09:42:14] [Server thread/INFO]: [UltraCosmetics] Loaded NMS support
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] 
+[09:42:17] [Server thread/WARN]: [UltraCosmetics] Morphs require Lib's Disguises, but it is not installed. Morphs will be disabled.
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] 
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] 
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] 
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 3273ms!
+[09:42:17] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[09:42:17] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
+[09:42:17] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[09:42:17] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[09:42:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[09:42:17] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[09:42:17] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.8.0
+[09:42:17] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[09:42:17] [Server thread/INFO]: [BetterTeams] File is up to date
+[09:42:17] [Server thread/INFO]: Display team name config value: prefix
+[09:42:17] [Server thread/INFO]: Loading below name. Type: PREFIX
+[09:42:17] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@433fee2c
+[09:42:17] [Server thread/INFO]: [AntiPluginLookUp] Enabling AntiPluginLookUp v1.2.3*
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] AntiPluginLookUp is running on 1.20!
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup:antipluginlookup
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: antipluginlookup:antipluginlookup
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: pl
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: plugins
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: ver
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: version
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: icanhasbukkit
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: about
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: ?
+[09:42:17] [Server thread/INFO]: [Info] [AntiPluginLookUp] Added: help
+[09:42:17] [Server thread/INFO]: [Error] [AntiPluginLookUp] Couldn't find NetworkManager field!
+[09:42:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[09:42:17] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[09:42:17] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[09:42:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[09:42:18] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[09:42:18] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[09:42:18] [Server thread/INFO]: [ClearLag] Loading modules...
+[09:42:18] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[09:42:18] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[09:42:18] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[09:42:18] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[09:42:18] [Thread-316/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[09:42:18] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.1.0
+[09:42:18] [Server thread/INFO]: [Images] Enabling Images v2.3.0
+[09:42:18] [Server thread/INFO]: [MoneyDrops] Enabling MoneyDrops v1.13*
+[09:42:18] [Server thread/INFO]: [MoneyDrops] Could not find version number for MoneyDrops from SpigotMC.org!
+[09:42:18] [Server thread/INFO]: [TDRPlaytime] Enabling TDRPlaytime v1.12.0*
+[09:42:18] [Thread-316/INFO]: [ClearLag] No updates found!
+[09:42:18] [Server thread/INFO]: [TDRPlaytime] Loading milestones
+[09:42:18] [Server thread/INFO]: [TDRPlaytime] Loading repeating milestones
+[09:42:18] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.17.1
+[09:42:18] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[09:42:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:42:18] [Server thread/INFO]: [Geyser-Spigot] 
+[09:42:18] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-661a9b4)
+[09:42:18] [Server thread/INFO]: [Geyser-Spigot] 
+[09:42:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:42:23] [epollEventLoopGroup-12-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:18186
+[09:42:23] [Server thread/INFO]: [Geyser-Spigot] Done (4.108s)! Run /geyser help for help!
+[09:42:23] [Server thread/INFO]: CONSOLE: Reload complete.
+[09:42:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28695ms or 573 ticks behind
+[09:42:23] [Server thread/INFO]: Timings Reset
+[09:42:23] [Craft Scheduler Thread - 23 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:42:23] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[09:42:23] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:42:23] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
+[09:42:23] [Craft Scheduler Thread - 27 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[09:42:23] [Craft Scheduler Thread - 29 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:42:23] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[09:42:23] [Craft Scheduler Thread - 24 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
+[09:42:23] [Craft Scheduler Thread - 27 - Vault/INFO]: [Vault] No new version available
+[09:42:25] [Craft Scheduler Thread - 20 - Images/INFO]: [Images] Loaded 0 images...
+[09:42:26] [Craft Scheduler Thread - 29 - AntiPluginLookUp/INFO]: [Info] [AntiPluginLookUp] You are using the latest version of AntiPluginLookUp <3
+[09:44:14] [Server thread/INFO]: algladsuper lost connection: Login timed out!
+[09:44:14] [Server thread/INFO]: algladsuper left the game
+[09:44:14] [Craft Scheduler Thread - 24 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:49:49] [User Authenticator #2/INFO]: UUID of player algladsuper is 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+[09:49:49] [Server thread/INFO]: algladsuper joined the game
+[09:49:49] [Server thread/INFO]: algladsuper[/[0:0:0:0:0:0:0:1%0]:41956] logged in with entity id 5816 at ([world]1267.2549820622864, 82.0, -1745.54199266)
+[09:49:58] [Server thread/INFO]: algladsuper issued server command: /mt off
+[09:49:58] [Server thread/INFO]: [Maintenance] Maintenance mode is now deactivated.
+[09:50:45] [Server thread/INFO]: algladsuper lost connection: Disconnected
+[09:50:46] [Server thread/INFO]: algladsuper left the game
+[09:50:46] [Craft Scheduler Thread - 27 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:50:46] [Craft Scheduler Thread - 27 - FreeRPG/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:52:48] [User Authenticator #3/INFO]: UUID of player algladsuper is 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+[09:52:48] [Server thread/INFO]: algladsuper joined the game
+[09:52:48] [Server thread/INFO]: algladsuper[/[0:0:0:0:0:0:0:1%0]:58034] logged in with entity id 5905 at ([world]1267.2549820622864, 82.0, -1745.54199266)
+[09:57:23] [Craft Scheduler Thread - 38 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[09:57:23] [Craft Scheduler Thread - 38 - FreeRPG/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:58:49] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/6401, uuid='813881e3-35b8-40a7-8087-cbe1ceb50af2', l='ServerLevel[world]', x=1255.50, y=-24.00, z=-1732.50, cpos=[78, -109], tl=431, v=true] died: Skeletal Knight suffocated in a wall
+[10:09:58] [Server thread/INFO]: algladsuper lost connection: Disconnected
+[10:09:58] [Server thread/INFO]: algladsuper left the game
+[10:09:58] [Craft Scheduler Thread - 27 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[10:09:58] [Craft Scheduler Thread - 27 - FreeRPG/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[10:22:48] [User Authenticator #4/INFO]: UUID of player algladsuper is 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+[10:22:48] [Server thread/INFO]: algladsuper joined the game
+[10:22:48] [Server thread/INFO]: algladsuper[/[0:0:0:0:0:0:0:1%0]:45254] logged in with entity id 7404 at ([world]1259.5814724969225, 82.0, -1761.8535621257547)
+[10:23:17] [Server thread/INFO]: algladsuper lost connection: Timed out
+[10:23:17] [Server thread/INFO]: algladsuper left the game
+[10:23:17] [Craft Scheduler Thread - 29 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[10:23:17] [Craft Scheduler Thread - 29 - FreeRPG/WARN]: Nag author(s): '[JackCarlton]' of 'FreeRPG v1.4.51' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[10:23:25] [User Authenticator #4/INFO]: UUID of player algladsuper is 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+[10:23:25] [Server thread/INFO]: algladsuper joined the game
+[10:23:25] [Server thread/INFO]: algladsuper[/[0:0:0:0:0:0:0:1%0]:37858] logged in with entity id 7466 at ([world]1259.5814724969225, 82.0, -1761.8535621257547)
+[10:27:23] [Craft Scheduler Thread - 48 - FreeRPG/INFO]: [FreeRPG] [STDOUT] [FreeRPG] Saved algladsuper stats successfully
+[10:28:11] [Server thread/INFO]: algladsuper issued server command: /mt on
+[10:28:11] [Server thread/INFO]: [Maintenance] Maintenance mode is now activated.

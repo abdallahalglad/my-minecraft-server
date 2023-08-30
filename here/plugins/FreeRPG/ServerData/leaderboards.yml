@@ -1,0 +1,155 @@
+swordsmanship:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+repair:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+enchanting:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+axeMastery:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+fishing:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+global:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    level: 0
+    totalExperience: 669
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    level: 0
+    totalExperience: 1024
+digging:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+alchemy:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+mining:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+woodcutting:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 200
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+defense:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+farming:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+playTime:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    totalPlayTime: 1693385016
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    totalPlayTime: 7687
+agility:
+  '0':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 1024
+  '1':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 469
+archery:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+beastMastery:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0
+smelting:
+  '0':
+    UUID: f3e26e0d-82b8-34ef-94c4-0778f5f99ea1
+    playerName: chiragpro21
+    experience: 0
+  '1':
+    UUID: 64b8e4b0-08ea-3c81-9d67-67a26b2b6e55
+    playerName: algladsuper
+    experience: 0

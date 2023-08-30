@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1693388250804
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1693390997838
+  login: 1693391005335
+money: '1.0'
+last-account-name: algladsuper
+lastlocation:
+  world: 7bf01a43-39cd-4520-8779-2ce067b8e2c8
+  world-name: world
+  x: 1267.5
+  y: 82.0
+  z: -1742.5
+  yaw: -122.99710083007812
+  pitch: 90.0
+logoutlocation:
+  world: 7bf01a43-39cd-4520-8779-2ce067b8e2c8
+  world-name: world
+  x: 1259.5814724969225
+  y: 82.0
+  z: -1761.8535621257547
+  yaw: -34.947025299072266
+  pitch: 3.000011444091797
